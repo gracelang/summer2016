@@ -1,0 +1,9 @@
+---
+layout: default
+encoding: utf-8
+---
+
+This is a test webpage. Let's see if if works? 
+
+<object data="http://web.cecs.pdx.edu/~pcowal/minigrace/js/"
+width="1000" height="800"> </object>

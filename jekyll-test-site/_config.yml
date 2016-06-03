@@ -1,0 +1,11 @@
+# Site settings
+title: Jekyll test website
+email: pcowal@gmail.com
+description: "This is a test"
+baseurl: ""
+url: "http://gracelang.org"
+github_username:  petercowal
+
+# Build settings
+markdown: kramdown
+permalink: pretty
