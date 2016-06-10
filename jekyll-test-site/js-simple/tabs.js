@@ -1,10 +1,12 @@
 var ace;
 var goldenOutput = "";
 var goldenOutputOffset = 0;
+var cursorMoved = false;  //Global varaible to be set when the cursor moves
+                          //after a charachter replacement occurs 
 
 // Setup stderr.
 minigrace.stderr_write = function(value) {
-    // this function is used only in the oldWeb interface. 
+    // this function is used only in the oldWeb interface.
     var stderr = document.getElementById("stderr_txt");
     stderr.value += value + "\n";
     stderr.scrollTop = stderr.scrollHeight;
