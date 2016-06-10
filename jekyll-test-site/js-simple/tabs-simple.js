@@ -112,7 +112,8 @@ function startup() {
   editor.getSession().setTabSize(4);
   editor.commands.bindKeys({"ctrl-l":null, "ctrl-shift-r":null, "ctrl-r":null, "ctrl-t":null})
 
-  //Sets up character equivalencies for converting expressions such as != 
+
+  //Sets up character equivalencies for converting expressions such as !=
   setupCharacterEquivalencies();
 
   document.getElementById('code_txt_real').style.height = (document.getElementById('stdout_txt').clientHeight
