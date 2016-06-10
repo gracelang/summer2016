@@ -114,7 +114,7 @@ function startup() {
 
 
   //Sets up character equivalencies for converting expressions such as !=
-  setupCharacterEquivalencies();
+  setupCharacterEquivalencies();  
 
   document.getElementById('code_txt_real').style.height = (document.getElementById('stdout_txt').clientHeight
                                                               + document.getElementById('stdout_options').clientHeight) + 'px';
