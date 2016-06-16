@@ -34,6 +34,7 @@ function setupCharacterEquivalencies()
       "⟧":"]]"
  };
 
+ //Symbols to add as commands
  var endSymbols = ['=','>','[',']'];
 
   //****** Add All Character Equivalancies ********//
@@ -94,11 +95,13 @@ function addCharEq(a)
                 var text = editor.session.getTextRange(cursorLine);
                 if(text in undoReplace && !cursorMoved)
                 {
+                     //Replace text - return true to signal overriden functionality
                      editor.session.replace(cursorLine,undoReplace[text]);
                      return true;
                 }
            }
 
+          //Return false to signal regular backspace functionality
           return false;
 
       },
@@ -112,6 +115,7 @@ function addCharEq(a)
   editor.getSession().selection.on('changeSelection', function(e)
   {
        cursorMoved = true;
+       editor.setOption({"text-indent":"0.1px"});
   });
 
 }
