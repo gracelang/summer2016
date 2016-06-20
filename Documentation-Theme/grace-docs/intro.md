@@ -61,19 +61,19 @@ left and right a number of degrees. The number of units or the number of degrees
 An example to get us started! The code below draws a square. Modify it to draw a rectangle with
 sides whose length = 75.
 
-<object id="example-1" data="/embedded-web-editor/?square" width="100%" height="500"> </object>
+<object id="example-1" data="{{site.baseurl}}/embedded-web-editor/?square" width="115%" height="550px"> </object>
 
 ### Example 2 ###
 
-<object id="example-2" data="/embedded-web-editor/?LogoExample" width="100%" height="500"> </object>
+<object id="example-2" data="{{site.baseurl}}/embedded-web-editor/?LogoExample" width="115%" height="550px"> </object>
 
 ### Example 3 ###
 
-<object id="example-3" data="/embedded-web-editor/?for" width="100%" height="500"> </object>
+<object id="example-3" data="{{site.baseurl}}/embedded-web-editor/?for" width="115%" height="550px"> </object>
 
 ### Example 4 ###
 
-<object id="example-4" data="/embedded-web-editor/?square" width="100%" height="500"> </object>
+<object id="example-4" data="{{site.baseurl}}/embedded-web-editor/?square" width="115%" height="550px"> </object>
 
 
 ***

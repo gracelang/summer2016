@@ -1,5 +1,5 @@
 ---
-title: Drawing Canvas | GraceDocs
+title: Drawing Canvas
 keywords: mydoc
 sidebar: grace-doc-sidebar
 toc: false
@@ -7,15 +7,12 @@ permalink: /drawingCanvas/
 folder: grace-docs
 ---
 
+### Type: Line
 
-## Type: Line
+`DrawingCanvas = Component & type { ...added methods below... }`
 
-**`DrawingCanvas = Component & type { ...added methods below... }`**
-
-______
-
-DrawingCanvas holding graphic objects
-
+### Description: 
+   Drawing Canvas holds graphic objects.
 
 ### Added methods
 
