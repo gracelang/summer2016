@@ -6,7 +6,7 @@ baseurl: "/documentation-theme-jekyll"
 # any subdirectory that appears after the domain where you're publishing your site
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
-topnav_title: Jekyll Documentation Theme
+topnav_title: Grace Documentation
 # this appears on the top navigation bar next to the home button
 site_title: Jekyll theme for designers
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)

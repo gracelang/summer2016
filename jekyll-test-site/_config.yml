@@ -1,7 +1,7 @@
 # Site settings
-title: Jekyll test website
+title: Grace Documentation
 email: pcowal@gmail.com
-description: "This is a test"
+description: "Step By Step Introduction to Grace"
 baseurl: ""
 url: "http://gracelang.org"
 github_username:  petercowal

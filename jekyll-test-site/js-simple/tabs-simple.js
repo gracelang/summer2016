@@ -110,11 +110,13 @@ function startup() {
   editor.setShowPrintMargin(false);
   editor.getSession().setUseSoftTabs(true);
   editor.getSession().setTabSize(4);
-  editor.commands.bindKeys({"ctrl-l":null, "ctrl-shift-r":null, "ctrl-r":null, "ctrl-t":null})
-
+  editor.commands.bindKeys({"ctrl-l":null, "ctrl-shift-r":null, "ctrl-r":null, "ctrl-t":null});
+  editor.setOptions({"text-indent":"0.1px"});
 
   //Sets up character equivalencies for converting expressions such as !=
-  setupCharacterEquivalencies();  
+  setupCharacterEquivalencies();
+
+
 
   document.getElementById('code_txt_real').style.height = (document.getElementById('stdout_txt').clientHeight
                                                               + document.getElementById('stdout_options').clientHeight) + 'px';

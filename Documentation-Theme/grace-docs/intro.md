@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  'Grace Logo Dialect'
-date:   2016-06-03 11:49:36
-categories: Logo
+title: Grace Logo Dialect
+keywords: mydoc
+sidebar: grace-doc-sidebar
+toc: false
+permalink: /intro/
+folder: grace-docs
 ---
 
 Welcome to a beginners guide to using Logo in Grace! In case you have not heard of Logo before, it is a
