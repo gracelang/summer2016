@@ -1,0 +1,17 @@
+entries:
+- title: Tutorial
+  product: Tutorial
+  version: 0.01
+  folders:
+  - title: Introduction
+    output: web
+    folderitems:
+    - title: What is Grace?
+      url: /introduction/grace/
+      output: web
+    - title: How to use this Tutorial
+      url: /introduction/tutorial/
+      output: web
+    - title: How to run Grace
+      url: /introduction/run/
+      output: web
