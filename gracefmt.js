@@ -9,14 +9,45 @@
 
 var fs = require("fs");
 
-var file = process.argv[2];
+var file = "";
+var backup = "";
+var outfile = "";
 
-var tabSize = 4; //TODO: add a tab size command-line option
+var tabSize = 4;
 
-fs.readFile(file, (err, code) => {
-  if (err) throw err;
-  fs.writeFile(file, formatGrace(String(code)), (err) => {if (err) throw err;});
-});
+if (!gracefmt()) {
+    console.log("Usage: node gracefmt.js [filename] [option(s)]");
+    console.log("Options: -o [output file], -t [tab size]");
+}
+
+function gracefmt(){
+    for(var i = 2; i < process.argv.length; ++i){
+        var arg = process.argv[i];
+        if(arg == "-o" || arg == "--output"){
+            if (i > process.argv.length - 1) return false;
+            outfile = process.argv[++i];
+        }
+        else if (arg == "-t" || arg == "--tabsize"){
+            if (i > process.argv.length - 1) return false;
+            tabSize = Number(process.argv[++i]);
+        }
+        else {
+            file = arg;
+            backup = "."+file+".back";
+            if (outfile == "") outfile = file;
+        }
+    }
+    if (file == "") return false;
+    fs.readFile(file, (err, code) => {
+        if (err) throw err;
+        if (file == outfile) {
+            fs.writeFile(backup, code, (err) => {if (err) throw err;});
+        }
+        fs.writeFile(outfile, formatGrace(String(code)), (err) => {if (err) throw err;});
+    });
+    return true;
+}
+
 
 
 function stringRepeat(pattern, count) {
