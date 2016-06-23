@@ -54,3 +54,9 @@ entries:
     - title: Do
       url: /variables/do/
       output: web
+    - title: Map
+      url: /variables/map/
+      output: web
+    - title: Fold
+      url: /variables/fold/
+      output: web

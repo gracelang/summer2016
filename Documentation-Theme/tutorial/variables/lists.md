@@ -21,3 +21,5 @@ can use `list.at(index)`, where replacing `index` with 1 would get the first ele
 To remove an element from a list, use `list.remove(element)`.
 
 <object id="example-1" data="{{site.baseurl}}/embedded-web-editor/?lists" width="100%" height="550px"> </object>
+
+A complete list of all methods for: [Lists](http://gracelang.org/documents/grace-prelude-0.7.0.html#list)

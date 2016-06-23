@@ -1,6 +1,6 @@
 ---
 title: Conditionals
-keywords: tutorial, conditionals, if, else
+keywords: tutorial, conditionals, if, else, then, boolean
 summary: An introduction to conditionals
 sidebar: tutorial_sidebar
 permalink: /variables/conditionals/
@@ -24,6 +24,9 @@ Note the structure here.  In Grace, **if statements** start with `if` followed b
 an expression that evaluates to true or false (also known as a **boolean** expression),
 followed by `then` and a section of code that only runs if the boolean expression is true.  
 The `else` statement is optional, and is followed by a section that only runs if the expression is false.  
+
+Note that boolean expressions can be used outside of conditionals, just as any other `def` or `var` can  
+be used. For example, you can declare `var b := false`.
 
 Feel free to change the value of `spoonSize` in the example program below, and see
 the results for yourself.  
