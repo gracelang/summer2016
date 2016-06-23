@@ -15,3 +15,10 @@ entries:
     - title: How to run Grace
       url: /introduction/run/
       output: web
+  - title: Variables and Objects
+    output: web
+    folderitems:
+    - title: Definitions and Variables
+      url: /variables/variables/
+      output: web
+    - title: Conditionals
