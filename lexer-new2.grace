@@ -260,17 +260,10 @@ class new {
 
     method advanceTo(s) { state := s }
     method emit(t) {
-        //print("Emitting {t}")
         tokens.push(t)
         accum := ""
     }
     method store(c) { accum := accum ++ c }
-
-    method consume(c) {
-        //print(c)
-        //print(state)
-        state.consume(c)
-    }
 
     method finish {
         consume("")
@@ -327,8 +320,8 @@ class new {
             if (c == "\n") then {
                 advanceTo(startState)
             } elseif (!isSpaceChar(c)) then {
-                ProgrammingError.raise("Pragmas can only be one word " ++
-                    "at position {lineNumber}:{linePosition}")
+                errormessages.syntaxError "Pragmas must be a single word "
+                    atRange(lineNumber, startPosition, linePosition)
             }
         }
     }
@@ -343,13 +336,16 @@ class new {
                 //do nothing
             } elseif (c == "\"") then {
                 inStr := true
+                stringStart := linePosition
                 advanceTo(quotedStringState)
             } elseif (c == "‹") then {
+                inStr := true
+                stringStart := linePosition
                 advanceTo(extendedStringState)
             } elseif (isDigit(c)) then {
                 startPosition := linePosition
                 advanceTo(numberState)
-                state.consume (c)
+                state.consume(c)
             } elseif (isIdentifierChar(c)) then {
                 advanceTo(identifierState)
                 state.consume(c)
@@ -428,7 +424,7 @@ class new {
 
     def slashState = object {
         method consume (c) {
-            checkSeparator (c)
+            checkSeparator(c)
             if (c == "/") then {
                 store(c)
                 if (accum == "//") then {
@@ -446,12 +442,11 @@ class new {
 
     def dotState = object {
         method consume (c) {
-            checkSeparator (c)
+            checkSeparator(c)
             if (c == ".") then {
                 store(c)
                 if (accum == "...") then {
                     advanceTo(identifierState)
-                    state.consume(c)
                 }
             } elseif (accum == "..") then {
                 advanceTo(operatorState)
@@ -486,7 +481,7 @@ class new {
             checkSeparatorString (c)
             if (c == "\"") then {
                 emit(stringToken(accum))
-                if (interpString) then {
+                if (interpString && (interpdepth == 0)) then {
                     emit(rParenToken)
                     interpString := false
                 }
@@ -1150,7 +1145,7 @@ class new {
             lineNumber := lineNumber + 1
         }
         linePosition := linePosition + 1
-        //TODO: fix this to properly account for unterminated strings
+        
         if (inStr) then {
             def mode = ""
             if (mode == "\"") then {
