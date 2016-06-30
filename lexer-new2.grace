@@ -513,10 +513,24 @@ class new {
             }
         }
     }
-
+    def unicodeState = object {
+        method consume(c){
+            unichars := unichars - 1
+            codepoint := codepoint * 16
+            codepoint := codepoint + hexdecchar(c)
+            //print "adding unicode char {c}"
+            if (unichars == 0) then {
+                // At the end of the sequence construct
+                // the character in the unicode library.
+                store(unicode.create(codepoint))
+                advanceTo(quotedStringState)
+            }
+        }
+    }
     def quotedStringEscapedState = object {
         method consume (c) {
             checkSeparatorString (c)
+            advanceTo(quotedStringState)
             if (c == "\n") then {
                newLineError
             } elseif (c == "n") then {
@@ -527,11 +541,13 @@ class new {
                 // (for a BMP codepoint).
                 unichars := 4
                 codepoint := 0
+                advanceTo(unicodeState)
             } elseif { c == "U" } then {
                 // Beginning of a six-digit Unicode escape
                 // (for a general codepoint).
                 unichars := 6
                 codepoint := 0
+                advanceTo(unicodeState)
             } elseif { c == "t" } then {
                 // Tab escape
                 accum := accum ++ "\u0009"
@@ -558,7 +574,6 @@ class new {
                 // insert it literally.
                 store(c)
             }
-            advanceTo(quotedStringState)
         }
     }
 
