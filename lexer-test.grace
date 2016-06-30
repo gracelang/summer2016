@@ -1,4 +1,4 @@
-import "lexer-new" as lexer_new
+import "lexer-new2" as lexer_new
 import "lexer" as lexer
 import "util" as util
 import "buildinfo" as buildinfo
