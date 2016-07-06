@@ -265,11 +265,6 @@ class new {
     }
     method store(c) { accum := accum ++ c }
 
-    method finish {
-        consume("")
-        tokens
-    }
-
     def startState = object {
         method consume(c){
             if (c == "#") then {
@@ -385,6 +380,7 @@ class new {
             } elseif (c == ";") then {
                 emit(semicolonToken)
             } elseif (c == "\n") then {
+                indentLevel := 0
                 advanceTo(indentationState)
             } else {
                 if((unicode.isSeparator(ordval).not) &&
@@ -1140,12 +1136,10 @@ class new {
                 }
             }
             state.consume("\n")
-            indentLevel := 0
             linePosition := 0
             lineNumber := lineNumber + 1
         }
         linePosition := linePosition + 1
-        
         if (inStr) then {
             def mode = ""
             if (mode == "\"") then {
