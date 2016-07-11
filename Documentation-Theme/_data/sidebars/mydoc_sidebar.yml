@@ -28,7 +28,7 @@ entries:
       type: homepage
       output: web, pdf
 
-    - title: 5.0 Release notes
+    - title: "Title: 5.0 Release notes"
       url: /mydoc_release_notes_50/
       output: web, pdf
 
@@ -70,7 +70,7 @@ entries:
 
   - title: Authoring
     output: web, pdf
-    
+
     folderitems:
     - title: Pages
       url: /mydoc_pages/
@@ -98,7 +98,7 @@ entries:
 
   - title: Navigation
     output: web, pdf
-    
+
     folderitems:
     - title: Sidebar navigation
       url: /mydoc_sidebar_navigation/
@@ -118,7 +118,7 @@ entries:
 
   - title: Formatting
     output: web, pdf
-    
+
     folderitems:
     - title: Tooltips
       url: /mydoc_adding_tooltips/
@@ -158,7 +158,7 @@ entries:
 
   - title: Handling reviews
     output: web, pdf
-    
+
     folderitems:
     - title: Commenting on files
       url: /mydoc_commenting_on_files/
@@ -170,7 +170,7 @@ entries:
 
   - title: Publishing
     output: web, pdf
-    
+
     folderitems:
     - title: Build arguments
       url: /mydoc_build_arguments/
@@ -214,7 +214,7 @@ entries:
 
   - title: Special layouts
     output: web, pdf
-    
+
     folderitems:
     - title: Knowledge-base layout
       url: /mydoc_kb_layout/
@@ -230,7 +230,7 @@ entries:
 
   - title: Troubleshooting
     output: web, pdf
-    
+
     folderitems:
 
     - title: Troubleshooting
