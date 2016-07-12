@@ -1,5 +1,0 @@
-#!/bin/bash
-minigrace --verbose --target lex -o "$1_old.lex" $1
-minigrace --make lexer-test.grace
-./lexer-test $1 > "$1_new.lex"
-diff -sy "$1_old.lex" "$1_new.lex"
