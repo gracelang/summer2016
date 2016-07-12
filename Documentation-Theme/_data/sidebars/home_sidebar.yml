@@ -5,23 +5,23 @@ entries:
   levels: one
   folders:
 
-  - title: Products
+  - title: Topics
     output: web
     folderitems:
     - title: Home
       url: /
       output: web
       type: homepage
-    - title: News
-      url: /news/
+    - title: Tutorial
+      url: /tutorial-landing/
       output: web
-    - title: Theme instructions
-      url: /mydoc_introduction/
+    - title: Language Specifications
+      url: /lang-spec/
       output: web
-    - title: Product 1
-      url: /p1_landing_page/
+    - title: Library Documentation
+      url: /doc-landing/
       output: web
-    - title: Product 2
-      url: /p2_landing_page/
+    - title: Help
+      url: /help/
       output: web
 

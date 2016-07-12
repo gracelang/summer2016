@@ -3,8 +3,8 @@
 topnav:
 - title: Topnav
   items:
-    - title: News
-      url: /news/
+    - title: Tutorial
+      url:  /introduction/grace/
 
 #Topnav dropdowns
 topnav_dropdowns:
@@ -12,7 +12,17 @@ topnav_dropdowns:
   folders:
     - title: Topics
       folderitems:
-        - title: Grace Tutorial
-          url: /introduction/grace/
-        - title: Grace Documentation
+        - title: Language Specifications
+          url: /lang-spec/
+        - title: Library Documentation
           url: /doc-landing/
+    - title: Dialects
+      folderitems:
+        - title: Logo
+          url: /doc-landing/
+        - title: Minitest
+          url: /temp/
+        - title: Static Type
+          url: /temp/
+        - title: General
+          url: /temp/

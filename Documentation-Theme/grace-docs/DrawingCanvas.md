@@ -1,90 +1,50 @@
 ---
-title: Drawing Canvas
+title: "Type: DrawingCanvas"
 keywords: mydoc
 sidebar: grace-doc-sidebar
 toc: false
-permalink: /drawingCanvas/
+permalink: /DrawingCanvas/
 folder: grace-docs
 ---
 
-### Type: Line
+### Definition
+`DrawingCanvas -> `[`Component`](/grace-documentation/Component) `&``type{...added methods below...}`
 
-`DrawingCanvas = Component & type { ...added methods below... }`
+### Description
+DrawingCanvas holding graphic objects
 
-### Description: 
-   Drawing Canvas holds graphic objects.
-
-### Added methods
-
--  `add(d:Graphic) -> Done` <br>
-    Add d to canvas.
-
--  `clear -> Done` <br>
-    Clear the canvas.
-
--  `Height -> Number` <br>
-    Returns the height.
-
--  `notifyRedraw -> Done` <br>
-    Inform canvas that it needs to be redrawn
-
--  `remove(d:Graphic) -> Done` <br>
-    Remove d from canvas. 
-
--  `SendBackward(d:Graphic) -> Done` <br>
-    Send d down one layer in graphics.
-    
--  `sendForward(d:Graphic) -> Done` <br>
-    Send d up one layer in graphics.
-
--  `sendToBack(d:Graphic) -> Done` <br>
-    Send d to bottom layer of graphics
-
--  `sendToFront(d:Graphic) -> Done` <br>
-    Send d to top layer of graphics.
-    
--  `size -> Point` <br>
-
--  `startDrawing -> Done` <br>
-    Redraws the canvas and its contents regularly as needed.
-    
--  `width -> Number` <br>
-    Return the current dimensions of the canvas. 
-    
-
-### Added methods
-
-`add(d:Graphic) -> Done` <br>
-    Add d to canvas.
-
-`clear -> Done` <br>
-    Clear the canvas.
-
-`Height -> Number` <br>
-    Returns the height.
-
-`notifyRedraw -> Done` <br>
-    Inform canvas that it needs to be redrawn
-
-`remove(d:Graphic) -> Done` <br>
-    Remove d from canvas. 
-
-`SendBackward(d:Graphic) -> Done` <br>
-    Send d down one layer in graphics.
-    
-`sendForward(d:Graphic) -> Done` <br>
-    Send d up one layer in graphics.
-
-`sendToBack(d:Graphic) -> Done` <br>
-    Send d to bottom layer of graphics
-
-`sendToFront(d:Graphic) -> Done` <br>
-    Send d to top layer of graphics.
-    
-`size -> Point` <br>
-
-`startDrawing -> Done` <br>
-    Redraws the canvas and its contents regularly as needed.
-    
-`width -> Number` <br>
-    Return the current dimensions of the canvas. 
+### Properties
+- `startDrawing —> `[`Done`](/grace-documentation/404)  
+redraws the canvas and its contents regularly as needed
+  
+- `add(d:`[`Graphic`](/grace-documentation/Graphic)`) —> `[`Done`](/grace-documentation/404)  
+add d to canvas
+  
+- `remove(d:`[`Graphic`](/grace-documentation/Graphic)`) —> `[`Done`](/grace-documentation/404)  
+remove d from canvas
+  
+- `notifyRedraw —> `[`Done`](/grace-documentation/404)  
+Inform canvas that it needs to be redrawn
+  
+- `clear —> `[`Done`](/grace-documentation/404)  
+clear the canvas
+  
+- `sendToFront(d:`[`Graphic`](/grace-documentation/Graphic)`) —> `[`Done`](/grace-documentation/404)  
+Send d to top layer of graphics
+  
+- `sendToBack(d:`[`Graphic`](/grace-documentation/Graphic)`) —> `[`Done`](/grace-documentation/404)  
+send d to bottom layer of graphics
+  
+- `sendForward(d:`[`Graphic`](/grace-documentation/Graphic)`) —> `[`Done`](/grace-documentation/404)  
+send d up one layer in graphics
+  
+- `sendBackward(d:`[`Graphic`](/grace-documentation/Graphic)`) —> `[`Done`](/grace-documentation/404)  
+send d down one layer in graphics
+  
+- `width —> `[`Number`](/grace-documentation/404)  
+return the current dimensions of the canvas
+  
+- `height —> `[`Number`](/grace-documentation/404)  
+  
+- `size —> `[`Point`](/grace-documentation/404)  
+  
