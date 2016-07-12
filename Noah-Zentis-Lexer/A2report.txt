@@ -1,0 +1,18 @@
+This program wasn't too hard to write - the general process of converting a set
+of regexes to DFAs is pretty simple. In terms of code clarity, coming up with
+descriptive names for the states was definitely the hardest part. When planning
+the FSM out on paper I used names like "S0" and "N3", but those don't describe
+the actual functions very well. I was also confused about whether spaces counted
+as tokens in themselves or whether I should skip them or use them as separators.
+I ended up treating spaces and newline both as separators, since the example
+test included a newline but didn't expect a special token as output.
+
+As far as Grace's features go, I had some trouble writing the string literals
+for my tests correctly. The web IDE doesn't seem to properly support
+uninterpreted strings, so I ended up fighting with escape sequences for a while.
+I also found myself missing the ability to put complex conditional expressions
+in matching constructs (like Haskell's pattern guards). I got around it by using
+if/else, but expression parsing would have been nicer if I'd used a match
+instead. The ability to include pre-constructed objects made my FSM
+implementation quite a bit shorting, though; in Java or C++ you'd need a bunch
+of static instances.
