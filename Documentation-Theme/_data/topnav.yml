@@ -19,7 +19,7 @@ topnav_dropdowns:
     - title: Dialects
       folderitems:
         - title: Logo
-          url: /doc-landing/
+          url: /dialects/logo/
         - title: Minitest
           url: /temp/
         - title: Static Type
