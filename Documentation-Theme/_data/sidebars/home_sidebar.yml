@@ -13,7 +13,7 @@ entries:
       output: web
       type: homepage
     - title: Tutorial
-      url: /tutorial-landing/
+      url: /introduction/grace/
       output: web
     - title: Language Specifications
       url: /lang-spec/
