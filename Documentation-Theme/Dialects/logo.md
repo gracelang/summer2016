@@ -1,7 +1,7 @@
 ---
 title: The Logo Dialect
 keywords: Logo
-sidebar: home_sidebar 
+sidebar: dialects_sidebar 
 permalink: /dialects/logo/ 
 toc: false
 folder: Dialects

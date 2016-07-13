@@ -21,8 +21,8 @@ topnav_dropdowns:
         - title: Logo
           url: /dialects/logo/
         - title: Minitest
-          url: /temp/
+          url: /dialects/minitest/
         - title: Static Type
-          url: /temp/
-        - title: General
-          url: /temp/
+          url: /dialects/staticTypes/
+        - title: Standard
+          url: /dialects/standard/

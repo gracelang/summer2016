@@ -13,7 +13,7 @@ Grace and all of its accompanying documentation.
 
 ## Using Grace 
 
-Using Grace could not be easier. If you're just beginning programming, checkout out [**our tutorial**]({{site.baseurl}}/introduction/grace/).
+Using Grace could not be easier. If you're just beginning programming, checkout [**our tutorial**]({{site.baseurl}}/introduction/grace/).
 Otherwise, if you have more experience, you can get started with the [web-based editor](http://web.cecs.pdx.edu/~grace/minigrace/exp/). 
 
 ## What Grace Is 
