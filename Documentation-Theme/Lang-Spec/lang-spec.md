@@ -13,3 +13,6 @@ This is a temporary landing page for the language specification page on this web
 Language specifications and specialty sidebar need to be added.
 
 
+# External Link 
+Please see [this website](http://gracelang.org/applications/documentation/spec/) for the current official specifications. 
+

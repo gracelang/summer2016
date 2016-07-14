@@ -27,13 +27,13 @@ Grace is a language that was designed specifically to make it easier for new pro
         </div>
         <div class="col-lg-12">
               <ul id="myTab" class="nav nav-tabs nav-justified">
-                <li class="active"><a href="#service-one" data-toggle="tab"><i class="fa fa-tree"></i> Teaching</a>
+                <li class="active"><a href="#service-one" data-toggle="tab"> Teaching</a>
                 </li>
-                <li class=""><a href="#service-two" data-toggle="tab"><i class="fa fa-car"></i> Design</a>
+                <li class=""><a href="#service-two" data-toggle="tab"> Design</a>
                 </li>
-                <li class=""><a href="#service-three" data-toggle="tab"><i class="fa fa-support"></i> Functionality</a>
+                <li class=""><a href="#service-three" data-toggle="tab"> Functionality</a>
                 </li>
-                <li class=""><a href="#service-four" data-toggle="tab"><i class="fa fa-database"></i> Other</a>
+                <li class=""><a href="#service-four" data-toggle="tab"> Other</a>
                 </li>
             </ul>
             <div id="myTabContent" class="tab-content">

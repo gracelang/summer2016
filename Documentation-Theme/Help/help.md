@@ -1,5 +1,5 @@
 ---
-title: Language Specifications 
+title: Help Page
 keywords: help
 sidebar: home_sidebar 
 permalink: /help/ 
