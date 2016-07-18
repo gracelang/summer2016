@@ -15,4 +15,4 @@ Not currently available...
 
 ### Properties
   
-- `asString ->`[`String`]({{site.baseurl}}/404)  
+- `asString -> `[`String`]({{site.baseurl}}/404)  

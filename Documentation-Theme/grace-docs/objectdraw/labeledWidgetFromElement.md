@@ -15,12 +15,12 @@ Not currently available...
 
 ### Properties
   
-- `labelElement ->`[`Foreign`](/grace-documentation/Foreign)  
-- `label ->`[`String`]({{site.baseurl}}/404)  
+- `labelElement -> `[`Foreign`](/grace-documentation/Foreign)  
+- `label -> `[`String`]({{site.baseurl}}/404)  
 answers the Text of the label
-- `label:= ( value: `[`String`]({{site.baseurl}}/404)`) ->`[`Done`]({{site.baseurl}}/404)  
+- `label:= ( value: `[`String`]({{site.baseurl}}/404)`) -> `[`Done`]({{site.baseurl}}/404)  
 sets the label to value
-- `asString ->`[`String`]({{site.baseurl}}/404)  
+- `asString -> `[`String`]({{site.baseurl}}/404)  
 a human-readable description of this object
 
 ### Definitions

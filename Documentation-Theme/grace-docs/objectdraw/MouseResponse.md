@@ -8,7 +8,7 @@ folder: grace-docs
 ---
 
 ### Definition
-`MouseResponse ->  `[`Procedure`](/grace-documentation/Procedure)`MouseEvent`
+`MouseResponse ->   `[`Procedure`](/grace-documentation/Procedure)`MouseEvent`
 
 ### Description
 type of an action taking a MouseEvent as a parameter

@@ -15,5 +15,5 @@ Not currently available...
 
 ### Properties
   
-- `init ->`[`Done`]({{site.baseurl}}/404)  
+- `init -> `[`Done`]({{site.baseurl}}/404)  
 method to help get initialization code right in choice elements

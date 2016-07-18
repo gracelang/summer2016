@@ -8,12 +8,12 @@ folder: grace-docs
 ---
 
 ### Definition
-`KeyEvent -> `[`Event`](/grace-documentation/Event) `&``type{...added methods below...}`
+`KeyEvent ->  `[`Event`](/grace-documentation/Event) `&``type``{...added methods below...}`
 
 ### Description
 Type of an event associated with a key press character → String
 
 ### Properties
-- `code —> `[`Number`]({{site.baseurl}}/404)  
+- `code  —> `[`Number`]({{site.baseurl}}/404)  
 modifiers → Modifiers
   

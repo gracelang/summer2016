@@ -15,9 +15,9 @@ Not currently available...
 
 ### Properties
   
-- `number ->`[`Number`]({{site.baseurl}}/404)  
+- `number -> `[`Number`]({{site.baseurl}}/404)  
 Return the number in the field
-- `number:= ( value: `[`Number`]({{site.baseurl}}/404)`) ->`[`Done`]({{site.baseurl}}/404)  
+- `number:= ( value: `[`Number`]({{site.baseurl}}/404)`) -> `[`Done`]({{site.baseurl}}/404)  
 update the number in the field
-- `asString ->`[`String`]({{site.baseurl}}/404)  
+- `asString -> `[`String`]({{site.baseurl}}/404)  
 Return description of the number field

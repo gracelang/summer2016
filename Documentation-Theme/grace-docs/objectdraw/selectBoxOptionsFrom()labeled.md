@@ -15,13 +15,13 @@ Not currently available...
 
 ### Properties
   
-- `init ->`[`Done`]({{site.baseurl}}/404)  
-- `labelElement ->`[`Foreign`](/grace-documentation/Foreign)  
-- `selected ->`[`String`]({{site.baseurl}}/404)  
+- `init -> `[`Done`]({{site.baseurl}}/404)  
+- `labelElement -> `[`Foreign`](/grace-documentation/Foreign)  
+- `selected -> `[`String`]({{site.baseurl}}/404)  
 Return selected item in menu
-- `selected:= ( value: `[`String`]({{site.baseurl}}/404)`) ->`[`Done`]({{site.baseurl}}/404)  
+- `selected:= ( value: `[`String`]({{site.baseurl}}/404)`) -> `[`Done`]({{site.baseurl}}/404)  
 Sets selected item in menu to value
-- `asString ->`[`String`]({{site.baseurl}}/404)  
+- `asString -> `[`String`]({{site.baseurl}}/404)  
 Return string representation of select box
 
 ### Definitions

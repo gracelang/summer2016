@@ -15,9 +15,9 @@ Not currently available...
 
 ### Properties
   
-- `label ->`[`String`]({{site.baseurl}}/404)  
+- `label -> `[`String`]({{site.baseurl}}/404)  
 label on the field
-- `label:= ( value: `[`String`]({{site.baseurl}}/404)`) ->`[`Done`]({{site.baseurl}}/404)  
+- `label:= ( value: `[`String`]({{site.baseurl}}/404)`) -> `[`Done`]({{site.baseurl}}/404)  
 reset the label on the field
-- `asString ->`[`String`]({{site.baseurl}}/404)  
+- `asString -> `[`String`]({{site.baseurl}}/404)  
 String representing the labeled field (including label)

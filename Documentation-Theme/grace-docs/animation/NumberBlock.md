@@ -8,7 +8,7 @@ folder: grace-docs
 ---
 
 ### Definition
-`NumberBlock ->  `[`Block0`]({{site.baseurl}}/404)`Number`
+`NumberBlock ->   `[`Block0`]({{site.baseurl}}/404)`Number`
 
 ### Description
 

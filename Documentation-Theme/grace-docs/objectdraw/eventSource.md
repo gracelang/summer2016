@@ -15,7 +15,7 @@ Not currently available...
 
 ### Properties
   
-- `asString ->`[`String`]({{site.baseurl}}/404)  
+- `asString -> `[`String`]({{site.baseurl}}/404)  
 
 ### Definitions
 - `source -> `[`Component`](/grace-documentation/Component)  

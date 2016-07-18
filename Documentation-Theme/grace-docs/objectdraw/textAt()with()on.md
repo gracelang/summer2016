@@ -15,18 +15,18 @@ Not currently available...
 
 ### Properties
   
-- `width ->`[`Number`]({{site.baseurl}}/404)  
-- `draw ( ctx: `[`Foreign`](/grace-documentation/Foreign)`) ->`[`Done`]({{site.baseurl}}/404)  
+- `width -> `[`Number`]({{site.baseurl}}/404)  
+- `draw ( ctx: `[`Foreign`](/grace-documentation/Foreign)`) -> `[`Done`]({{site.baseurl}}/404)  
 Draw the text
-- `contents ->`[`String`]({{site.baseurl}}/404)  
+- `contents -> `[`String`]({{site.baseurl}}/404)  
 Return the string held in the text item (i.e., its contents)
-- `contents:= ( newContents: `[`String`]({{site.baseurl}}/404)`) ->`[`Done`]({{site.baseurl}}/404)  
+- `contents:= ( newContents: `[`String`]({{site.baseurl}}/404)`) -> `[`Done`]({{site.baseurl}}/404)  
 Reset the contents to newContents
-- `fontSize:= ( size': `[`Number`]({{site.baseurl}}/404)`) ->`[`Done`]({{site.baseurl}}/404)  
+- `fontSize:= ( size': `[`Number`]({{site.baseurl}}/404)`) -> `[`Done`]({{site.baseurl}}/404)  
 Reset the font size to size'
-- `fontSize ->`[`Number`]({{site.baseurl}}/404)  
+- `fontSize -> `[`Number`]({{site.baseurl}}/404)  
 Return the size of the font
-- `asString ->`[`String`]({{site.baseurl}}/404)  
+- `asString -> `[`String`]({{site.baseurl}}/404)  
 Return string representation of the text item
 
 ### Definitions

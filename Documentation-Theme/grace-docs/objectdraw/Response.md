@@ -8,7 +8,7 @@ folder: grace-docs
 ---
 
 ### Definition
-`Response ->  `[`Procedure`](/grace-documentation/Procedure)`Event`
+`Response ->   `[`Procedure`](/grace-documentation/Procedure)`Event`
 
 ### Description
 type of an action taking an Event as a paramter

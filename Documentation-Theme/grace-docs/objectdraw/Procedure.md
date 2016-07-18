@@ -8,7 +8,7 @@ folder: grace-docs
 ---
 
 ### Definition
-`Procedure ->T `[`prelude.Block1`]({{site.baseurl}}/404)`T, Done`
+`Procedure -> T `[`prelude.Block1`]({{site.baseurl}}/404)`T, Done`
 
 ### Description
 Type of block taking argument of type T and returning Done

@@ -8,7 +8,7 @@ folder: grace-docs
 ---
 
 ### Definition
-`Procedure ->  `[`Block0`]({{site.baseurl}}/404)`Done`
+`Procedure ->   `[`Block0`]({{site.baseurl}}/404)`Done`
 
 ### Description
 

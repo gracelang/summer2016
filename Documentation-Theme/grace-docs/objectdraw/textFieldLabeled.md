@@ -15,9 +15,9 @@ Not currently available...
 
 ### Properties
   
-- `text ->`[`String`]({{site.baseurl}}/404)  
+- `text -> `[`String`]({{site.baseurl}}/404)  
 answer the text
-- `text:= ( value: `[`String`]({{site.baseurl}}/404)`) ->`[`Done`]({{site.baseurl}}/404)  
+- `text:= ( value: `[`String`]({{site.baseurl}}/404)`) -> `[`Done`]({{site.baseurl}}/404)  
 Updates the text
-- `asString ->`[`String`]({{site.baseurl}}/404)  
+- `asString -> `[`String`]({{site.baseurl}}/404)  
 Return string representation of the text field

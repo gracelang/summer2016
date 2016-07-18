@@ -15,8 +15,8 @@ Not currently available...
 
 ### Properties
   
-- `== ( c: `[`Color`](/grace-documentation/Color)`) ->`[`Boolean`]({{site.baseurl}}/404)  
-- `asString ->`[`String`]({{site.baseurl}}/404)  
+- `== ( c: `[`Color`](/grace-documentation/Color)`) -> `[`Boolean`]({{site.baseurl}}/404)  
+- `asString -> `[`String`]({{site.baseurl}}/404)  
 
 ### Definitions
 - `red -> `[`Number`]({{site.baseurl}}/404)  

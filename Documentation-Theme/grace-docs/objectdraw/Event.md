@@ -8,11 +8,11 @@ folder: grace-docs
 ---
 
 ### Definition
-`Event -> {...added methods below...}`
+`Event ->  {...added methods below...}`
 
 ### Description
 Generic event containing source of the event.
 
 ### Properties
-- `source —> `[`Component`](/grace-documentation/Component)  
+- `source  —> `[`Component`](/grace-documentation/Component)  
   

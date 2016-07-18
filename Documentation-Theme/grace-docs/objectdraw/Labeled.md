@@ -8,14 +8,14 @@ folder: grace-docs
 ---
 
 ### Definition
-`Labeled -> `[`Component`](/grace-documentation/Component) `&``type{...added methods below...}`
+`Labeled ->  `[`Component`](/grace-documentation/Component) `&``type``{...added methods below...}`
 
 ### Description
 Component of window that holds text
 
 ### Properties
-- `label —> `[`String`]({{site.baseurl}}/404)  
+- `label  —> `[`String`]({{site.baseurl}}/404)  
 The label name.
   
-- `label:=(value:`[`String`]({{site.baseurl}}/404)`) —> `[`Done`]({{site.baseurl}}/404)  
+- `label:= (value: `[`String`]({{site.baseurl}}/404)`) —> `[`Done`]({{site.baseurl}}/404)  
   

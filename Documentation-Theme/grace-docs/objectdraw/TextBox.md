@@ -8,14 +8,14 @@ folder: grace-docs
 ---
 
 ### Definition
-`TextBox -> `[`Component`](/grace-documentation/Component) `&``type{...added methods below...}`
+`TextBox ->  `[`Component`](/grace-documentation/Component) `&``type``{...added methods below...}`
 
 ### Description
 Component of window that holds text
 
 ### Properties
-- `contents —> `[`String`]({{site.baseurl}}/404)  
+- `contents  —> `[`String`]({{site.baseurl}}/404)  
 The text contents of the box.
   
-- `contents:=(value:`[`String`]({{site.baseurl}}/404)`) —> `[`Done`]({{site.baseurl}}/404)  
+- `contents:= (value: `[`String`]({{site.baseurl}}/404)`) —> `[`Done`]({{site.baseurl}}/404)  
   

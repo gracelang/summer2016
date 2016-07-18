@@ -8,17 +8,17 @@ folder: grace-docs
 ---
 
 ### Definition
-`Color -> {...added methods below...}`
+`Color ->  {...added methods below...}`
 
 ### Description
 
 ### Properties
-- `red —> `[`Number`]({{site.baseurl}}/404)  
+- `red  —> `[`Number`]({{site.baseurl}}/404)  
 The red component of the color.
   
-- `green —> `[`Number`]({{site.baseurl}}/404)  
+- `green  —> `[`Number`]({{site.baseurl}}/404)  
 The green component of the color.
   
-- `blue —> `[`Number`]({{site.baseurl}}/404)  
+- `blue  —> `[`Number`]({{site.baseurl}}/404)  
 The blue component of the color.
   

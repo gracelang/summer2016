@@ -8,7 +8,7 @@ folder: grace-docs
 ---
 
 ### Definition
-`Foreign ->  `[`Unknown`]({{site.baseurl}}/404)
+`Foreign ->   `[`Unknown`]({{site.baseurl}}/404)
 ### Description
 
 ### Properties

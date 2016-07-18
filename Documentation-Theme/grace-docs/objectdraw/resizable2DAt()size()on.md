@@ -15,11 +15,11 @@ Not currently available...
 
 ### Properties
   
-- `width:= ( w: `[`Number`]({{site.baseurl}}/404)`) ->`[`Done`]({{site.baseurl}}/404)  
+- `width:= ( w: `[`Number`]({{site.baseurl}}/404)`) -> `[`Done`]({{site.baseurl}}/404)  
 Reset width of object to w
-- `height:= ( h: `[`Number`]({{site.baseurl}}/404)`) ->`[`Done`]({{site.baseurl}}/404)  
+- `height:= ( h: `[`Number`]({{site.baseurl}}/404)`) -> `[`Done`]({{site.baseurl}}/404)  
 Reset height of object to h
-- `size:= ( dimensions: `[`Point`]({{site.baseurl}}/404)`) ->`[`Done`]({{site.baseurl}}/404)  
+- `size:= ( dimensions: `[`Point`]({{site.baseurl}}/404)`) -> `[`Done`]({{site.baseurl}}/404)  
 Reset size of object to w x h
-- `asString ->`[`String`]({{site.baseurl}}/404)  
+- `asString -> `[`String`]({{site.baseurl}}/404)  
 Return string representation of object

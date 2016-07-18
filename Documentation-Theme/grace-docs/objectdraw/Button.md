@@ -8,7 +8,7 @@ folder: grace-docs
 ---
 
 ### Definition
-`Button ->  `[`Labeled`](/grace-documentation/Labeled)
+`Button ->   `[`Labeled`](/grace-documentation/Labeled)
 ### Description
 type of button component in window
 

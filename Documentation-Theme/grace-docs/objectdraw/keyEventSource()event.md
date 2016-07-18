@@ -15,7 +15,7 @@ Not currently available...
 
 ### Properties
   
-- `asString ->`[`String`]({{site.baseurl}}/404)  
+- `asString -> `[`String`]({{site.baseurl}}/404)  
 String representation of the key event
 
 ### Definitions

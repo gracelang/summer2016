@@ -8,29 +8,29 @@ folder: grace-docs
 ---
 
 ### Definition
-`Audio -> {...added methods below...}`
+`Audio ->  {...added methods below...}`
 
 ### Description
 An audio file that can be played
 
 ### Properties
-- `source —> `[`String`]({{site.baseurl}}/404)  
+- `source  —> `[`String`]({{site.baseurl}}/404)  
 The source URL of the audio.
   
-- `source:=(value:`[`String`]({{site.baseurl}}/404)`) —> `[`Done`]({{site.baseurl}}/404)  
+- `source:= (value: `[`String`]({{site.baseurl}}/404)`) —> `[`Done`]({{site.baseurl}}/404)  
   
-- `play —> `[`Done`]({{site.baseurl}}/404)  
+- `play  —> `[`Done`]({{site.baseurl}}/404)  
 Play the audio.
   
-- `pause —> `[`Done`]({{site.baseurl}}/404)  
+- `pause  —> `[`Done`]({{site.baseurl}}/404)  
 Pause playing the audio.
   
-- `isLooping —> `[`Boolean`]({{site.baseurl}}/404)  
+- `isLooping  —> `[`Boolean`]({{site.baseurl}}/404)  
 does the audio loop back to the start?
   
-- `looping:=(value:`[`Boolean`]({{site.baseurl}}/404)`) —> `[`Done`]({{site.baseurl}}/404)  
+- `looping:= (value: `[`Boolean`]({{site.baseurl}}/404)`) —> `[`Done`]({{site.baseurl}}/404)  
 determine whether the audio will loop
   
-- `isEnded —> `[`Boolean`]({{site.baseurl}}/404)  
+- `isEnded  —> `[`Boolean`]({{site.baseurl}}/404)  
 whether the audio has finished
   

@@ -8,7 +8,7 @@ folder: grace-docs
 ---
 
 ### Definition
-`KeyResponse ->  `[`Procedure`](/grace-documentation/Procedure)`KeyEvent`
+`KeyResponse ->   `[`Procedure`](/grace-documentation/Procedure)`KeyEvent`
 
 ### Description
 type of an action taking a KeyEvent as a parameter

@@ -15,7 +15,7 @@ Grace, the simplest way to store a value is either within a **variable** or a
 **definition**.  
 
 A **definition** serves as a name for a value.  This value can be anything,
-from the number of sides of a polygon to the name of the city your mother was
+from the number of sides of a polygon to the name of the city where you were
 born.  To create a definition, simply do the following:  
 `def triangleSides = 3`  
 `def city = "Portland"`  

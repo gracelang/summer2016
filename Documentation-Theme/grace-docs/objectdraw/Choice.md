@@ -8,14 +8,14 @@ folder: grace-docs
 ---
 
 ### Definition
-`Choice -> `[`Input`](/grace-documentation/Input) `&``type{...added methods below...}`
+`Choice ->  `[`Input`](/grace-documentation/Input) `&``type``{...added methods below...}`
 
 ### Description
 Type for pop-up menus
 
 ### Properties
-- `selected —> `[`String`]({{site.baseurl}}/404)  
+- `selected  —> `[`String`]({{site.baseurl}}/404)  
 The currently selected option.
   
-- `selected:=(value:`[`String`]({{site.baseurl}}/404)`) —> `[`Done`]({{site.baseurl}}/404)  
+- `selected:= (value: `[`String`]({{site.baseurl}}/404)`) —> `[`Done`]({{site.baseurl}}/404)  
   
