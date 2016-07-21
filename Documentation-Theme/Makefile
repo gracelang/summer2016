@@ -1,7 +1,7 @@
 #This makefile provides standard build and serve functionality
 #through jekyll for this project
 LINEBREAK = "*****************************************************************"
-LAST_EXIT = 1
+LAST_EXIT = 0
 
 all:
 	@echo "Building the website... Running command:"
@@ -16,11 +16,13 @@ else
 	@echo "Oops! Looks like you don't have Jekyll yet, lets install it!"
 	@echo "You can also see their website at: \"https://jekyllrb.com/docs/installation/\""
 	@echo ${LINEBREAK}
+	LAST_EXIT=0
 	- sudo gem install jekyll || LAST_EXIT=$$?
 ifeq ($(LAST_EXIT), 0)
 	@echo ${LINEBREAK}
 	@echo "Great! We will try to re-build the project again!"
 	@echo ${LINEBREAK}
+	LAST_EXIT=0
 	- jekyll build relative || LAST_EXIT=$$?
 ifeq ($(LAST_EXIT), 0)
 	@echo ${LINEBREAK}
