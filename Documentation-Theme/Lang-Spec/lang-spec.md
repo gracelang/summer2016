@@ -2,7 +2,7 @@
 title: Language Specifications 
 keywords: language
 sidebar: home_sidebar 
-permalink: /lang-spec/ 
+permalink: /lang-spec1/ 
 folder: Lang-Spec 
 ---
 
