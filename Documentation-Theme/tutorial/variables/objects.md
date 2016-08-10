@@ -29,4 +29,4 @@ calls the `eatMouse` method encapsulated in the object `culver`.
 
 Below is another example of a cat object, with a few more bells and whistles.
 
-<object id="example-1" data="{{site.baseurl}}/embedded-web-editor/?objects" width="100%" height="550px"> </object>
+<object id="example-1" data="{{site.editor}}?objects" width="100%" height="550px"> </object>

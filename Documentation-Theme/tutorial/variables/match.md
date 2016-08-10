@@ -27,4 +27,4 @@ The last case is for when `num` doesn't match with any of the other cases.
 In the following example, try changing the value of `x` and seeing how the program  
 runs differently.
 
-<object id="example-1" data="{{site.baseurl}}/embedded-web-editor/?match" width="100%" height="550px"> </object>
+<object id="example-1" data="{{site.editor}}?match" width="100%" height="550px"> </object>

@@ -25,3 +25,6 @@ build:
 	@echo The website has been built and is stored in the \"_site\" folder. It can now be
 	@echo added to a server. If you wish to run it on localhost:4000, use "make serve"
 	@echo ${LAST_EXIT}
+
+pull-embedded-editor:
+	

@@ -18,4 +18,4 @@ if (temperature > 68) then {
 }
 ```
 
-<object id="example-1" data="{{site.baseurl}}/embedded-web-editor/?block" width="100%" height="550px"> </object>
+<object id="example-1" data="{{site.editor}}?block" width="100%" height="550px"> </object>

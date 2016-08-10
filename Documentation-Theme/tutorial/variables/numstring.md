@@ -26,7 +26,7 @@ print "{b.at(1)}" // this gets the first letter of b
 ```
 
 Try experimenting with other methods for Numbers and Strings below (like `rounded` for Numbers and `asUpper` for Strings).
-<object id="example-1" data="{{site.baseurl}}/embedded-web-editor/?numstring" width="100%" height="550px"> </object>
+<object id="example-1" data="{{site.editor}}?numstring" width="100%" height="550px"> </object>
 
 A complete list of all methods for: [Numbers](http://gracelang.org/documents/grace-prelude-0.7.0.html#number)
 and [Strings](http://gracelang.org/documents/grace-prelude-0.7.0.html#string)

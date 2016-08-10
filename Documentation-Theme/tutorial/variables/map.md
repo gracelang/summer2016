@@ -15,4 +15,4 @@ list.map { element ->
 }
 ```
 
-<object id="example-1" data="{{site.baseurl}}/embedded-web-editor/?map" width="100%" height="550px"> </object>
+<object id="example-1" data="{{site.editor}}?map" width="100%" height="550px"> </object>

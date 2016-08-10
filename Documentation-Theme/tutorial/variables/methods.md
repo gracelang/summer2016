@@ -29,4 +29,4 @@ There are different formats for methods. You can have multiple parameters,
 such as `multiply(a, b)` below. You can also have multiple names, each  
 taking its own parameters, shown by `divide(a) by(b)` below. Lastly, you can  
 have a name with no parameters, shown by `pi` below.
-<object id="example-1" data="{{site.baseurl}}/embedded-web-editor/?methods" width="100%" height="550px"> </object>
+<object id="example-1" data="{{site.editor}}?methods" width="100%" height="550px"> </object>

@@ -38,7 +38,7 @@ To create a new tutorial page:
 
     The last line of your markdown file should be the following: (the vertical bars represent the left of the file)
 
-        |<object id="example-1" data="{{site.baseurl}}/embedded-web-editor/?graceFile" width="100%" height="550px"> </object>
+        |<object id="example-1" data="{{site.editor}}?graceFile" width="100%" height="550px"> </object>
 
     where graceFile is the name of the grace file that corresponds to this tutorial (without the .grace extension).
 
@@ -48,3 +48,4 @@ To create a new tutorial page:
 To change the site's base URL
 
     Edit _config.yml's url and baseurl values (located near the top) to contain the site's desired location.
+    Similarly, to specify the embedded web editor's location, edit _config.yml's editor value.

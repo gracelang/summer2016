@@ -31,4 +31,4 @@ be used. For example, you can declare `var b := false`.
 Feel free to change the value of `spoonSize` in the example program below, and see
 the results for yourself.  
 
-<object id="example-1" data="{{site.baseurl}}/embedded-web-editor/?if" width="100%" height="550px"> </object>
+<object id="example-1" data="{{site.editor}}?if" width="100%" height="550px"> </object>

@@ -15,4 +15,4 @@ list.fold { a, b ->
 } startingWith (startingValue)
 ```
 
-<object id="example-1" data="{{site.baseurl}}/embedded-web-editor/?fold" width="100%" height="550px"> </object>
+<object id="example-1" data="{{site.editor}}?fold" width="100%" height="550px"> </object>

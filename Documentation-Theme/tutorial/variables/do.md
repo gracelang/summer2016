@@ -18,4 +18,4 @@ list.do { element ->
 For those of you familiar with other languages, the **do** method acts as a **for loop**.  
 Although Grace also has for loops, do statements are much more concise.
 
-<object id="example-1" data="{{site.baseurl}}/embedded-web-editor/?do" width="100%" height="550px"> </object>
+<object id="example-1" data="{{site.editor}}?do" width="100%" height="550px"> </object>

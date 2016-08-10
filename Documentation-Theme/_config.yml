@@ -3,6 +3,8 @@ permalink: /:year/:month/:day/:title/
 url: http://web.cecs.pdx.edu/
 # where you plan to publish your site
 baseurl: "/~dmitri2"
+# the location of the embedded web editor
+editor: "http://web.cecs.pdx.edu/~pcowal/embedded-web-editor/"
 # any subdirectory that appears after the domain where you're publishing your site
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
