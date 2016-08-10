@@ -44,3 +44,7 @@ To create a new tutorial page:
 
     Finally, create a corresponding grace program for the embedded web editor and save it into the embedded-web-editor git
     repository under examples/
+
+To change the site's base URL
+
+    Edit _config.yml's url and baseurl values (located near the top) to contain the site's desired location.
