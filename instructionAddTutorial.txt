@@ -1,0 +1,46 @@
+To create a new tutorial folder:
+
+    Open Documentation-Theme/_data/sidebars/tutorial_sidebar.yml
+    Type the following: (the vertical bars represent the left of the file)
+        |  - title: FolderTitle
+        |    output: web
+        |    folderitems:
+    where FolderTitle is a title of your choosing.
+
+To create a new tutorial page:
+
+    Open Documentation-Theme/_data/sidebars/tutorial_sidebar.yml
+    Find the tutorial folder it you want to put the tutorial in.
+    Starting on the line underneath "folderitems:" insert the following: (the vertical bars represent the left of the file)
+
+        |    - title: TutorialTitle
+        |      url: someURL
+        |      output: web
+
+    where TutorialTitle is a title for your tutorial that will appear in the sidebar, and someURL is the in-browser
+    url of your new tutorial page. For example, someURL for the "Conditionals" tutorial in the "Variables" folder
+    might be /variables/conditionals/.
+
+    Now go to Documentation-Theme/tutorial/ and create a markdown file for your new tutorial.
+    The header of the markdown file should be: (the vertical bars represent the left of the file)
+
+        |---
+        |title: TutorialTitle
+        |keywords: tutorialKeywords
+        |summary: Description
+        |sidebar: tutorial_sidebar
+        |permalink: someURL
+        |folder: tutorial
+        |---
+
+    where TutorialTitle is the title that will appear on the top of your page, tutorialKeywords is a list of key
+    words in the tutorial, separated by commas, and someURL is the same as the previous someURL.
+
+    The last line of your markdown file should be the following: (the vertical bars represent the left of the file)
+
+        |<object id="example-1" data="{{site.baseurl}}/embedded-web-editor/?graceFile" width="100%" height="550px"> </object>
+
+    where graceFile is the name of the grace file that corresponds to this tutorial (without the .grace extension).
+
+    Finally, create a corresponding grace program for the embedded web editor and save it into the embedded-web-editor git
+    repository under examples/
