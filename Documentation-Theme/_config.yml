@@ -1,10 +1,10 @@
 permalink: /:year/:month/:day/:title/
 # this sets the style for permalinks. The date formatting (/:year/:month/:day/) will only apply to blog posts, while the pages will just show the title.
-url: http://web.cecs.pdx.edu/
+url: http://web.cecs.pdx.edu/~grace/doc
 # where you plan to publish your site
-baseurl: "/~dmitri2"
+baseurl: "."
 # the location of the embedded web editor
-editor: "http://web.cecs.pdx.edu/~pcowal/embedded-web-editor/"
+editor: "http://web.cecs.pdx.edu/~grace/embedded-web-editor/"
 # any subdirectory that appears after the domain where you're publishing your site
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -29,7 +29,7 @@ exclude:
   - .idea/
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_email: ------@gmail.com
+feedback_email: black@cs.pdx.edu
 # used as a contact email for the Feedback link in the top navigation bar
 
 #feedback_disable: true
